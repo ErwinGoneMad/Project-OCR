@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated with glade 3.38.2 -->
+<interface>
+  <requires lib="gtk+" version="3.24"/>
+  <object class="GtkWindow" id="OCR.ui">
+    <property name="width-request">800</property>
+    <property name="height-request">500</property>
+    <property name="visible">True</property>
+    <property name="can-focus">False</property>
+    <child>
+      <object class="GtkFixed">
+        <property name="visible">True</property>
+        <property name="can-focus">False</property>
+        <child>
+          <object class="GtkButton" id="button_load">
+            <property name="label" translatable="yes">load</property>
+            <property name="width-request">130</property>
+            <property name="height-request">50</property>
+            <property name="visible">True</property>
+            <property name="can-focus">True</property>
+            <property name="receives-default">True</property>
+          </object>
+          <packing>
+            <property name="y">5</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="pre_button">
+            <property name="label" translatable="yes">preprocessing</property>
+            <property name="width-request">130</property>
+            <property name="height-request">50</property>
+            <property name="visible">True</property>
+            <property name="can-focus">True</property>
+            <property name="receives-default">True</property>
+          </object>
+          <packing>
+            <property name="y">67</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="solver_button">
+            <property name="label" translatable="yes">lines detection</property>
+            <property name="width-request">130</property>
+            <property name="height-request">50</property>
+            <property name="visible">True</property>
+            <property name="can-focus">True</property>
+            <property name="receives-default">True</property>
+          </object>
+          <packing>
+            <property name="y">129</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="result_button">
+            <property name="label" translatable="yes">result</property>
+            <property name="width-request">130</property>
+            <property name="height-request">50</property>
+            <property name="visible">True</property>
+            <property name="can-focus">True</property>
+            <property name="receives-default">True</property>
+          </object>
+          <packing>
+            <property name="y">441</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="image">
+            <property name="width-request">600</property>
+            <property name="height-request">400</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="stock">gtk-missing-image</property>
+          </object>
+          <packing>
+            <property name="x">155</property>
+            <property name="y">50</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="split_button">
+            <property name="label" translatable="yes">split</property>
+            <property name="width-request">130</property>
+            <property name="height-request">50</property>
+            <property name="visible">True</property>
+            <property name="can-focus">True</property>
+            <property name="receives-default">True</property>
+          </object>
+          <packing>
+            <property name="y">249</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="train_button">
+            <property name="label" translatable="yes">train</property>
+            <property name="width-request">130</property>
+            <property name="height-request">50</property>
+            <property name="visible">True</property>
+            <property name="can-focus">True</property>
+            <property name="receives-default">True</property>
+          </object>
+          <packing>
+            <property name="y">313</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="test_button">
+            <property name="label" translatable="yes">test</property>
+            <property name="width-request">130</property>
+            <property name="height-request">50</property>
+            <property name="visible">True</property>
+            <property name="can-focus">True</property>
+            <property name="receives-default">True</property>
+          </object>
+          <packing>
+            <property name="y">376</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="grid_button">
+            <property name="label" translatable="yes">grid detection</property>
+            <property name="width-request">130</property>
+            <property name="height-request">50</property>
+            <property name="visible">True</property>
+            <property name="can-focus">True</property>
+            <property name="receives-default">True</property>
+          </object>
+          <packing>
+            <property name="y">190</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>
